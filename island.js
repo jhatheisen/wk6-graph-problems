@@ -30,7 +30,7 @@ function islandSize(row, col, graph) {
   // Create a visited set to store visited nodes
   const visited = new Set();
   // Create a stack, put the starting node in the stack
-  const stack = [startNode]
+  const stack = [startNode];
   // Put the stringified starting node in visited
   visited.add(startNode.toString());
   // Initialize size to 0
